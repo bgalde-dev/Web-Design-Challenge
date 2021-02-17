@@ -1,6 +1,6 @@
-# web-design-challenge1
+# Web Design Challenge
 
-webpage: https://laurenprins.github.io/web-design-challenge1/
+webpage: https://bgalde-dev.github.io/web-design-challenge/
 
 
 
