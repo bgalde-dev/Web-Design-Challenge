@@ -14,35 +14,42 @@
     crossorigin="anonymous"></script>
   <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+  <link rel='stylesheet' type='text/css' href='./weather/style/style.css'>
 </head>
 
 <body>
   <!-- Navigation bar -->
   <div class="navigation" id="nav-placeholder"></div>
   <script type="text/javascript">
-    $(function () { $("#nav-placeholder").load("./pages/navbar.html"); });
+    $(function () { $("#nav-placeholder").load("./navbar-base.html"); });
   </script>
 
   <!-- Main Container -->
   <div class="container">
     <h1 class="title">Available Dashboards</h1>
+
     <div class="row">
-      <div class="col-md-6">
-        <div class="box">
+      <div class="box">
+        <div class="col-md-6">
           <h3 class="title">Weather :: Latitude vs. X</h3>
           <hr>
-          <img src="./images/temperature.png" class="visualization rounded float-left" alt="Temperature Graph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. </p>
+          <img src="./weather/images/temperature.png" class="visualization rounded float-left" alt="Temperature Graph">
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="box">
-          <h3 class="title">Other Data :: Lorem Ipsum</h3>
+      <div class="box">
+        <div class="col-md-6">.<h3 class="title">Other Data :: Lorem Ipsum</h3>
           <hr>
-          <img src="./images/temperature.png" class="visualization rounded float-left" alt="Temperature Graph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. </p>
+          <img src="./weather/images/temperature.png" class="visualization rounded float-left" alt="Temperature Graph">
         </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. </p>
+      </div>
+      <div class="col-md-6">
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. </p>
       </div>
     </div>
   </div>
