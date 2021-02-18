@@ -14,7 +14,7 @@
     crossorigin="anonymous"></script>
   <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel='stylesheet' type='text/css' href='./weather/style/style.css'>
+  <link rel='stylesheet' type='text/css' href='./style.css'>
 </head>
 
 <body>
@@ -29,29 +29,47 @@
     <h1 class="title">Available Dashboards</h1>
 
     <div class="row">
-      <div class="box">
-        <div class="col-md-6">
-          <h3 class="title">Weather :: Latitude vs. X</h3>
-          <hr>
-          <img src="./weather/images/temperature.png" class="visualization rounded float-left" alt="Temperature Graph">
+
+      <div class="col-md-6">
+
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="./weather/images/temperature.png" alt="Temperature Graph" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Weather :: Latitude vs. X</h5>
+            <p class="card-text">
+              The purpose of this project was to analyze how weather changes as you get closer to the equator.
+            </p>
+            <a href="./weather/pages/index.html" class="btn btn-primary">Weather Dashboard</a>
+          </div>
         </div>
       </div>
-      <div class="box">
-        <div class="col-md-6">.<h3 class="title">Other Data :: Lorem Ipsum</h3>
-          <hr>
-          <img src="./weather/images/temperature.png" class="visualization rounded float-left" alt="Temperature Graph">
+
+      <div class="col-md-6">
+
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="./pymaceuticals/images/final_vol_regimen.png" alt="Final Tumor Volume by Regimen" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Pymaceuticals :: Cancer Drugs</h5>
+            <p class="card-text">
+              The purpose of this project was to analyze rat tumors with regards to different cancer treatments.
+            </p>
+            <a href="./pymaceuticals/pages/index.html" class="btn btn-primary">Cancer Drug Dashboard</a>
+          </div>
         </div>
       </div>
+
     </div>
 
-    <div class="row">
-      <div class="col-md-6">
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. </p>
-      </div>
-      <div class="col-md-6">
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. </p>
-      </div>
-    </div>
   </div>
 </body>
 
