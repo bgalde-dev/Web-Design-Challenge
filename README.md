@@ -1,6 +1,10 @@
 # Web Design Challenge
 
+
+## This site does use JQuery to utilize some resuablity. For this reason it needs be rendered via a server.
 Webpage: https://bgalde-dev.github.io/web-design-challenge/
+
+
 
 
 
