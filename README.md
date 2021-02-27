@@ -9,4 +9,4 @@ The following dashboards are included:
 
 * The dashboard for the base project requirements. This gives an analysis of weather data vs. latitude of various cities around the world.
 * The second dashboard is based on a previous project that will visualize data created via a Jupyter Notebook. This data is in regards
-to Mouce tumor size vs. several anti-cancer drugs.
+to Mouse tumor size vs. several anti-cancer drugs.
